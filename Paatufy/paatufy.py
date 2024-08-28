@@ -33,8 +33,8 @@ import pandas as pd
 import requests
 
 # Spotify API credentials
-client_id = '4a0afcaabbb147bb854d6f0c48b05e51'
-client_secret = 'ada5e3a27b76477c97102bd8ca1560b4'
+client_id = 'client id'
+client_secret = 'client secret id'
 
 # Authenticate with Spotify
 auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
