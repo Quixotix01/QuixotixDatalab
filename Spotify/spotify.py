@@ -16,7 +16,8 @@ sp = spotipy.Spotify(auth_manager=auth_manager)
 
 # List of Tamil artists
 artists = ['Ilayaraja', 'A.R. Rahman', 'Yuvan Shankar Raja', 'Harris Jayaraj',
-           'Vijay Antony', 'G.V. Prakash', 'Santhosh Narayanan', 'Anirudh Ravichander']
+           'Vijay Antony', 'G.V. Prakash', 'Santhosh Narayanan', 'Anirudh Ravichander',
+           'Hiphop Tamizha','Sean Roldan', 'Sam C.S.', 'Devi Sri Prasad', 'Ghibhran', 'Thaman']
 
 # Function to get top tracks
 def get_top_tracks(artist_name):
